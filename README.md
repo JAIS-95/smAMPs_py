@@ -29,17 +29,17 @@ pip3 install < module name > --user
 
 # Installation
 Download
+```
+git clone https://github.com/skbinfo/smAMPsTK.git
 
-<code>git clone https://github.com/skbinfo/smAMPsTK.git</code>
-
-`cd smAMPsTK/`
-
+cd smAMPsTK/
+```
 Installing MiPepid and GPSR:
+```
+unzip MiPepid-master.zip
 
-<code>unzip MiPepid-master.zip </code>
-
-<code>unzip gpsr.zip </code>
-
+unzip gpsr.zip
+```
 [Note: GPSR will be used from util directory]
 
 # Usage
@@ -48,12 +48,14 @@ First change the path of input file, MiPepid, InterProScan, and output folder in
 Once config file is set according to the user's path;
 
 For AMPs prediction from smORFs:
-
-<code>python3 smAMPs.py config.ini -th 0 </code>
+```
+python3 smAMPs.py config.ini -th 0
+```
 
 For domain search `-domain` argument is needed to be provided, like this:
-
-<code>python3 smAMPs.py config.ini -th 0 -domain </code>
+```
+python3 smAMPs.py config.ini -th 0 -domain
+```
 
 ## Regarding the datasets
 `analysis_data.tar.gz` contains generated AMPs data of five plant organisms used in this paper. 
