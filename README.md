@@ -7,7 +7,7 @@ Python modules: orfipy (v0.0.4), orffinder (v1.8), pandas (v1.1.5), configparser
 
 Python module can be easily installed by using following command:
 
-`pip3 install < module name > --user`
+```pip3 install < module name > --user```
 
 2. EMBOSS (v6.6.0) -transeq
 
